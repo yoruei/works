@@ -1,5 +1,23 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
+@font-face {
+  font-family: 'Genjyuu_regular';
+  src: url('/fonts/GenJyuuGothic-Regular.woff') format("woff"),
+         url('/fonts/GenJyuuGothic-Regular.ttf') format("truetype"),
+        
+}
+@font-face {
+  font-family: 'Genjyuu_bold';
+  src: url('/fonts/GenJyuuGothic-Bold.woff') format("woff"),
+         url('/fonts/GenJyuuGothic-Bold.ttf') format("truetype"),
+         
+}
+@font-face {
+  font-family: 'Genjyuu_heavy';
+  src: url('/fonts/GenJyuuGothic-Heavy.woff') format("woff"),
+         url('/fonts/GenJyuuGothic-Heavy.ttf') format("truetype"),
+         
+}
 
 /*
 	Phantom by HTML5 UP
@@ -117,7 +135,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #585858;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Source Sans Pro", Genjyuu_heavy, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.75;
